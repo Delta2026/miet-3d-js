@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.alert-info {
+    /*
+    * Background: #f7fee7
+    * Border: #84cc16
+    */
+
+    padding: 25px;
+    width: fit-content;
+    background: #F7FEE7;
+    border: 5px solid #84CC16;
+    border-radius: 10px;
+    font-weight: 500;
+}
