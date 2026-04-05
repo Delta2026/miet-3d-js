@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+    padding: 50px 50px 50px 50px;
+    font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    gap: 40px;
+    background: #000000;
+}
+
+.Header{
+    gap: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.TitleSmall{
+    font-size: 28px;
+    font-style: oblique;
+    color: #ffffff;
+}
+
+.TitleBig{
+    font-size: 56px;
+    color: #d7ff46b2;
+}
+
+
+.Conteiner {
+    gap: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px #080d12;
+}
+
+.BigBlock {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    flex-direction: row;
+}
+
+.Box {
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #ffffff;
+}
+
+.SmallBox {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.Picture {
+    max-width: 300px;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.SocIcon {
+    max-width: 64px;
+    max-height: 64px;
+    padding: 3.8px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.CardTitle {
+    gap: 0px;
+    background: #ffffff;
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 0px 20px 0px;
+    color: black;
+}
+
+.ProductName {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.Price {
+    font-size: 18px;
+    margin: 0;
+}
+
+.SmallBlock {
+    align-items: center; 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 100px;
+}
+
+.Icon {
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.SmallBlockBright {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 50px;
+    background-color: #ffffff;
+}
+
+.SmallBlockDark {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #000000;
+}
+
+.TextBright {
+    color: #ffffff;
+}

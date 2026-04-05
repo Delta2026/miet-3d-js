@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+    padding: 50px 50px 50px 50px;
+    font-family: system-ui, "Segoe UI", Helvetica, Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    gap: 40px;
+    background: #000000;
+}
+
+.Box {
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner {
+    gap: 80px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px;
+    border-radius: 20px;
+    background: #ffffff;
+}
+
+.title {
+    padding: 0%;
+    font-size: 40px;
+    max-width: 400px;
+    text-align: center;
+    color: #000000;
+}
+
+.text {
+    padding: 0%;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000000;
+}
+
+.ButtonPlace {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+}
+
+.button1 {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border-color: #000000;
+    color: #ffffff;
+    background: #000000;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.button2 {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border-color: #000000;
+    color: #ffffff;
+    background: #5c2fff;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.button1:hover {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border-color: #000000;
+    color: #ffffff;
+    background: #8d8d8d;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.button2:hover {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border-color: #000000;
+    color: #ffffff;
+    background: #b7a3ff;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.button1:active {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border-color: #000000;
+    color: #ffffff;
+    background: #414141;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.button2:active {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border-color: #000000;
+    color: #ffffff;
+    background: #9b80ff;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.Picture {
+    object-fit: cover;
+    height: 500px;
+    border-radius: 20px;
+    max-width: 500px;
+}
